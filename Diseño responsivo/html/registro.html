@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="contendor">
+        <div class="fila">
+            <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 encabezado">
+                
+                    <a href="../index.html"><img src="../img/z-tech1.png" alt="z-tech" title="inicio"></a>
+                
+                
+            </header>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 titulo">
+            <h1 id="uno"></h1>
+            </div>
+
+            <div class="cont-form">
+
+                <form name="miformulario">
+                    <div class="separacion">
+                    <label class="etiqueta">Nombres</label>
+                    <input id="nombre"  class="casillero" type="text" required placeholder="Nombre">
+                    </div>
+
+                    <div class="separacion">
+                    <label class="etiqueta">Apellido</label>
+                    <input id="apellido"  class="casillero" type="text" required placeholder="Apellido">
+                    </div>
+
+                    <div class="separacion">
+                    <label class="etiqueta">Direccion</label>
+                    <input id="direccion"  class="casillero" type="text" placeholder="Dirección">
+                    </div>
+
+                    <div class="separacion">
+                    <label class="etiqueta" for="">Telefono</label>
+                    <input id="telefono"  class="casillero" type="text" required placeholder="Telefono">
+                    </div>
+
+                    <div class="separacion">
+                    <label class="etiqueta" for="">Email</label>
+                    <input id="email"  class="casillero" type="email" required placeholder="Email">
+                    </div>
+
+                    <div class="separacion">
+                    <label class="etiqueta" for="">Password</label>
+                    <input id="password"  class="casillero" type="password" placeholder="Password">
+                    </div>   
+                </form>
+                <button id="btn-enviar" type="submit" onclick="caracter()">Enviar</button>
+
+                
+                
+
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="../Js/script.js"></script>
+
+</body>
+</html>
